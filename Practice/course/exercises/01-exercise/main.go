@@ -1,13 +1,23 @@
-//Hands-on exercise #1
-//Write a program that prints a number in decimal, binary, and hex
+//Using the short declaration operator, ASSIGN these VALUES to VARIABLES with the IDENTIFIERS “x” and “y” and “z”
+//a. 42
+//b. “James Bond”
+//c. true
+//Now print the values stored in those variables using
+//a single print statement
+//multiple print statements
 
 package main
 
 import "fmt"
 
-var x int
-
 func main()  {
-	x = 100
-	fmt.Printf("Decimal of x: %d\nBinary of x: %#x\nHex of x: %x\n", x, x, x)
+	x := 42
+	y := "James Bond"
+	z := true
+
+	fmt.Println(x,y,z)
+	fmt.Printf("%v\n%v\n%v\n", x, y, z)
+	fmt.Println(x)
+	fmt.Println(y)
+	fmt.Println(z)
 }
