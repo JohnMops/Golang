@@ -3,7 +3,7 @@ package main
 //yearsWorkedyearsWorked
 import (
 	"fmt"
-	. "github.com/johnmops/Golang/Practice/packages"
+	"github.com/johnmops/Golang/Practice/packages"
 )
 
 // declaration in the global scope //
@@ -66,6 +66,6 @@ func main() { // block scope vars are for the block itself
 		fmt.Printf("%v, %T\n", k, k)
 	*/
 
-	fmt.Println(Add(yearsWorked, year))
+	fmt.Println(packages.Add(yearsWorked, year))
 
 }
