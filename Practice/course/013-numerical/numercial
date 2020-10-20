@@ -1,0 +1,4 @@
+Decimal: 10^n
+Binary: 2^n
+Hexadecimal: 16^n
+base64: 64^n
