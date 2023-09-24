@@ -1,0 +1,4 @@
+## Append samples of your project ##
+resources:
+- john.com_v1_serviceaccount.yaml
+#+kubebuilder:scaffold:manifestskustomizesamples
